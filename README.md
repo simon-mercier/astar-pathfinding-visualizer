@@ -25,7 +25,8 @@ In my opinion, there is no better way to learn new skills than working on an int
 
 ### Built With
 -HTML5, CSS3, JavaScript and TypeScript.
--I learned the basics of these languages with tutorials found on https://www.w3schools.com/ 
+
+-I learned the basics of these languages with tutorials found on https://www.w3schools.com/.
 
 
 
