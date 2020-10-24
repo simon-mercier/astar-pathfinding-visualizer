@@ -502,7 +502,7 @@ function aStar(start, goal) {
     var _loop_1 = function () {
         var q;
         openList.forEach(function (openCell) {
-            if (q == null || openCell.f < q.f) {
+            if (q == null || (openCell.f <= q.f && openCell.h < q.h)) {
                 q = openCell;
             }
         });

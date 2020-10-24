@@ -550,9 +550,9 @@ function aStar(start: Cell, goal: Cell): Cell[] {
   while (openList.length > 0) {
     let q: Cell;
     openList.forEach((openCell: Cell) => {
-      if (q == null || openCell.f < q.f) {
-        q = openCell;
-      }
+      if (q == null || (openCell.f <= q.f && openCell.h < q.h)) {
+          q = openCell;
+        }
     });
 
     const index: number = openList.indexOf(q, 0);
